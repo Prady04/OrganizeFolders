@@ -1,9 +1,6 @@
 {
   "common": {
-    "logfile":"log.txt",
-    "db_host":"localhost",
-    "db_user":"root",
-    "db_pass":"password",
+    "logfile":"log.txt", 
     "folder": [
        "C:\\Users\\Admin\\Downloads",
       "C:\\Users\\Admin\\Videos",
