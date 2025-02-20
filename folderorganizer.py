@@ -50,8 +50,13 @@ def organize_and_move_duplicates(folder_path):
                 # Store the file hash
                 file_hashes[file_hash] = filename
                 # Move the file to the destination folder
-                shutil.move(file_path, destination_folder)
-                print(f"Moved {filename} to {destination_folder}")
+                try:
+                    shutil.move(file_path, destination_folder)
+                    print(f"Moved {filename} to {destination_folder}")
+                except FileNotFoundError as e:
+                    print("Couldnt copy" + file_path)
+                    pass
+                
         
 if __name__ == "__main__":
     #folder_path = input("Enter the path to the folder to organize: ")

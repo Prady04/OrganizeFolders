@@ -2,9 +2,10 @@
   "common": {
     "logfile":"log.txt", 
     "folder": [
-       "C:\\Users\\Admin\\Downloads",
-      "C:\\Users\\Admin\\Videos",
-      "C:\\Users\\Admin\\Documents"
+       "C:\\Users\\prade\\Downloads",
+       "C:\\Users\\prade\\Videos"
+      
+      
     ]
   }
 }
